@@ -5,7 +5,7 @@ public class Main {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
 
-       /* System.out.println("Введіть значення М");
+        System.out.println("Введіть значення М");
         int m = scan.nextInt();
         if (m > 0) {
             System.out.println("n=1");
@@ -49,7 +49,7 @@ public class Main {
         for (int i=1; i<=f; i++){
             sum = sum + i;
         }
-        System.out.println("Сума 10 натуральних чисел:" + sum);*/
+        System.out.println("Сума 10 натуральних чисел:" + sum);
 
         System.out.println("Введіть число:");
         int w=scan.nextInt();
@@ -89,6 +89,18 @@ public class Main {
 
         }
         System.out.println("\n The sum is:  " + n);
+
+
+        System.out.println("Give year:");
+        int year= scan.nextInt();
+        if (year % 4 ==0 &&(year %100 !=0 || year % 400==0)){
+            System.out.print("Year is leap");
+        } else {
+            System.out.print("Year is not a leap");
+        }
+
+
+
 
 
 
