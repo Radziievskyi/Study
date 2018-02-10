@@ -3,7 +3,7 @@
 public class Person {
     private String name;
     private int birthYear;
-    int age;
+    private int age;
     private int Weight;
     private int Height;
 
