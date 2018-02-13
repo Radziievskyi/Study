@@ -1,3 +1,5 @@
+package Task1;
+
 public class Main {
 
     public static void main(String[] args) {
@@ -38,12 +40,6 @@ public class Main {
 
 
 
-
-
-
-
-
-
     static void test(Countries Countries) {
         switch (Countries) {
             case SPAIN:
@@ -65,6 +61,30 @@ public class Main {
                 System.out.println("something wrong");
         }
     }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
 enum Countries {
     UKRAINE, POLAND, SPAIN, BRAZIL, ARGENTINA
