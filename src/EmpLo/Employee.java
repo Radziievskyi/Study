@@ -12,7 +12,7 @@ package EmpLo;
     }
 
 
-     static void Departments (Department Department) {
+     static void Dep (Department Department) {
         switch (Department){
             case Folding:
                 System.out.println("Folding");
@@ -33,14 +33,13 @@ package EmpLo;
 
      @Override
      public String toString() {
-         return "Employee{" +
-                 "name='" + name + '\'' +
+         return "\n" +
+                 " name='" + name + '\'' +
                  ", Departments='" + Departments + '\'' +
-                 ", salary=" + salary +
-                 '}';
+                 ", salary=" + salary;
      }
  }
 enum Department {
-    Financial, Technical,Designer,Folding
+    Financial, Technical,Designer,Folding;
 
 }

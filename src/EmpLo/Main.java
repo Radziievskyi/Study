@@ -1,7 +1,11 @@
 package EmpLo;
 
+import java.util.Arrays;
+import java.util.Scanner;
+
 public class Main {
     public static void main (String[] args){
+        Scanner scanner= new Scanner(System.in);
         Employee [] emp = new Employee[5];
         emp[0]= new Employee("Ivan", "Folding",4950);
         emp[1]= new Employee("Petro","Designer",7860);
@@ -9,7 +13,10 @@ public class Main {
         emp[3]= new Employee("Artur","Technical",5445);
         emp[4]= new Employee("Ruslan","Designer",7350);
 
-        System.out.println();
+        System.out.println(Arrays.toString(emp));
+       
+
+
 
 
 
