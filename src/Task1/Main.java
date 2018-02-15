@@ -35,8 +35,21 @@ public class Main {
         System.out.println("sumAll=" + sumAll);
 
 
+        int value1 = 0;
+        int value2 = 0;
+        for ( int q=0; q<mass.length; q++){
+            if (mass[q]>0){
+                value1=value1+1;
+            }
+            else if (mass[q]<0){
+                value2=value2+1;
+            }
+            }
+            System.out.println("Positive=" + value1);
+            System.out.println("Negative=" + value2);
 
-    }
+        }
+
 
 
 

@@ -13,8 +13,18 @@ public class Main {
         emp[3]= new Employee("Artur","Technical",5445);
         emp[4]= new Employee("Ruslan","Designer",7350);
 
-        System.out.println(Arrays.toString(emp));
-       
+        System.out.println("Befor:"  + Arrays.toString(emp));
+        Arrays.sort(emp);
+        System.out.println("AFTER:" + Arrays.toString(emp));
+
+
+
+
+
+
+
+
+
 
 
 
@@ -22,4 +32,28 @@ public class Main {
 
 
     }
+
+    static void Dep (Department Department) {
+        switch (Department){
+            case Folding:
+                System.out.println("Folding");
+                break;
+            case Designer:
+                System.out.println("Designer");
+                break;
+            case Financial:
+                System.out.println("Financial");
+                break;
+            case Technical:
+                System.out.println("Technical");
+                break;
+            default:
+                System.out.println("Wrong");
+        }
+    }
+    }
+
+enum Department {
+    Financial, Technical,Designer,Folding;
+
 }
